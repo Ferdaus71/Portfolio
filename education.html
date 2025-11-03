@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Education & Experience</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style-responsive.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Md. Ferdaus Hossen</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html" class="active">Education & Experience</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Education Section -->
+    <section class="education-section">
+        <h2>Education</h2>
+        <div class="timeline">
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item card-glow card-glow-hover card-glow-active">
+                <div class="timeline-year">2022 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Bachelor's in Computer Science & Engineering</h3>
+                    <p>Green University of Bangladesh, Dhaka</p>
+                </div>
+            </div>
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item card-glow card-glow-hover card-glow-active">
+                <div class="timeline-year">2018 - 2019</div>
+                <div class="timeline-content">
+                    <h3>Higher Secondary Certificate (Science)</h3>
+                    <p>Dr. Affiluddin Degree College,Baganchra</p>
+                </div>
+            </div>
+            <!-- Timeline Item 4 -->
+            <div class="timeline-item card-glow card-glow-hover card-glow-active">
+                <div class="timeline-year">2017</div>
+                <div class="timeline-content">
+                    <h3>Secondary School Certificate (Science)</h3>
+                    <p>Horidraputa A.G.A secondery High School</p>
+                </div>
+            </div>
+            <!-- Additional Education Items as needed -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section">
+        <style>
+            .timeline-content h4 {
+                margin: 5px 0 10px;
+                font-size: 1rem;
+                color: #f1eded;
+            }
+            
+            .timeline-content p {
+                font-size: 0.95rem;
+                color: #ccc;
+                line-height: 1.6;
+            }
+        </style>
+
+        <h2>Experience</h2>
+        <div class="timeline">
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item card-glow card-glow-hover card-glow-active">
+                <div class="timeline-year">18/10/2025 - present</div>
+                <div class="timeline-content">
+                    <h3>AI & ML Intern</h3>
+                    <h4>ZanSoft Lab</h4>
+                    <p>
+                        Worked on developing intelligent systems using <strong>Machine Learning</strong> and <strong>Deep Learning</strong> models, focusing on <strong>data preprocessing, model training, and performance optimization</strong>. Contributed
+                        to research involving <strong>mental health analysis</strong> and <strong>AI-driven predictive solutions</strong> under real-world datasets.
+                    </p>
+                </div>
+
+            </div>
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item card-glow card-glow-hover card-glow-active">
+                <div class="timeline-year">30/10/2025 - 30/11/2025</div>
+                <div class="timeline-content">
+                    <h3>Machine Learning Intern</h3>
+                    <h4>ZanSoft Lab</h4>
+                    <p>Building and optimizing machine learning models using Python and TensorFlow to improve data-driven decision-making.</p>
+                </div>
+            </div>
+
+            <!-- Timeline Item 3 -->
+            <div class="timeline-item card-glow card-glow-hover card-glow-active">
+                <div class="timeline-year">25/10/2025 - 25/1/2026</div>
+                <div class="timeline-content">
+                    <h3>Machine Learning Intern</h3>
+                    <h4>ZanSoft Lab</h4>
+                    <p>Designing and training ML models, analyzing datasets, and enhancing model efficiency through experimentation.</p>
+                </div>
+            </div>
+
+            <!-- Additional Experience Items as needed -->
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>AI & ML Engineer</h3>
+                <p>&copy; 2025 MD. Ferdaus Hossen. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-socials">
+                    <a href="https://github.com/Ferdaus71" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ferdaus71/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.hackerrank.com/profile/Ferdaus71" class="social-icon"><i class="fab fa-hackerrank"></i></a>
+                    <a href="https://www.kaggle.com/ferdaushassan" class="social-icon"><i class="fab fa-kaggle"></i></a>
+                    <a href="https://www.facebook.com/ferdaus.hassan.1184" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:smferdaushassan@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </footer>
+    <!-- JavaScript for Scroll Animations -->
+    <script src="navigation.js"></script>
+    <script>
+        // Use IntersectionObserver for fade-in effect on timeline items
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll(".timeline-item").forEach(item => {
+            observer.observe(item);
+        });
+    </script>
+</body>
+
+</html>
